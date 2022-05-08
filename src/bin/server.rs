@@ -5,10 +5,10 @@ use std::thread;
 
 #[derive(Parser, Debug)]
 struct Args {
-    #[clap(long)]
+    #[clap(long, default_value="localhost")]
     host: String,
 
-    #[clap(short, long)]
+    #[clap(short, long, default_value="9009")]
     port: i32,
 }
 

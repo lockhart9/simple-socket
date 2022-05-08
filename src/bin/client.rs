@@ -1,4 +1,4 @@
-use std::net::TcpStream;
+use std::net::{TcpStream, Shutdown};
 use std::io::{Read, Write};
 use std::str::from_utf8;
 use clap::Parser;
