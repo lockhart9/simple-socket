@@ -26,3 +26,9 @@ Make sure the port you specify matches the server port.
 ```
 $ ./target/release/client --host localhost --port 9009
 ```
+
+## Example
+
+https://user-images.githubusercontent.com/25946425/167276658-21a64b28-b348-4607-9c56-3e2d9333c861.mov
+
+
